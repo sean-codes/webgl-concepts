@@ -93,7 +93,7 @@ display, settings, settings setting {
 settings {
    position: absolute;
    bottom: 0px;
-   right: -2px;
+   right: 0px;
    color: #dcd;
    letter-spacing: 1px;
    background: rgba(0, 0, 0, 0.75);
@@ -102,8 +102,8 @@ settings {
    -webkit-user-select: none;
    user-select: none;
    opacity: 0.25;
-   transition: all 0.25s;
-   transition-delay: 0.5s;
+   transition: all 0.15s;
+   transition-delay: 0.2s;
    user-select: none;
 }
 
@@ -136,5 +136,5 @@ settings label {
 
 settings input {
    top: 5px;
-   max-width: 60px;
+   width: 100px;
 }

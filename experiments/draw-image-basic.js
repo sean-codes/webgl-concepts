@@ -9,7 +9,7 @@ image.onload = function() {
    } = setup()
 
    var cats = []
-   for ( var i = 0; i < 20; i++) {
+   for ( var i = 0; i < 200; i++) {
       cats.push({
          texture: texture.cat,
          x: gl.canvas.width/2,
