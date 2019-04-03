@@ -25,6 +25,10 @@ class Settings {
       return this.settings[settingName.toLowerCase()]
    }
 
+   getValue(settingName) {
+     return this.getSetting(settingName).value;
+   }
+
    add(options) {
       var setting = {
          html: this.createSettingHTML(options),
